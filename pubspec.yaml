@@ -9,13 +9,13 @@ environment:
 
 dependencies:
   # Plugin for parsing html
-  html: ^0.15.4
+  html: ^0.15.5
 
   # Plugin for parsing css
-  csslib: ^1.0.0
+  csslib: ^1.0.2
 
   # Plugin for firstWhereOrNull extension on lists
-  collection: '>=1.15.0 <1.17.3'
+  collection: '^1.18.0'
 
   # plugin to manage lists and counting in a variety of styles
   list_counter: ^1.0.2
@@ -27,7 +27,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.1
-  meta: ">=1.8.0 <1.9.2"
+  meta: "1.15.0"
   melos: ^3.0.1
 
 screenshots:
